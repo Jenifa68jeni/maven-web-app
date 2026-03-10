@@ -11,9 +11,9 @@
        src: target
        dest: /home/ansadmin
     - name : Build image
-      command: docker build -t vinodses/mavenwebapp .
+      command: docker build -t jenifa68jeni/mavenwebapp .
     - name : Push Docker Image
-      command: docker push vinodses/mavenwebapp
+      command: docker push jenifa68jeni/mavenwebapp
 - name: Second Play - K8s Deployment
   hosts: eks
   tasks:
